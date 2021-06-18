@@ -6,9 +6,12 @@ The Project
 -----------
 Tuning the Magnetic loop antenna, by controling the capacitor remotely, using Wifi. 
 I built a Magnetic Loop Antenna, and my idea was to control the tuning capacitor remotely.
-## --> Please visit my YouTube channel to see this project in action
+## Please visit my YouTube channel to see this project in action
+## --> YoutTube: https://www.youtube.com/channel/UCHImT8lgZAWDnsUao0wHAQQ <--
+
 
 This project is based on:
+-------------------------
 * ESP8266 Micro Controller
 * DRV8255 Stepper Motor Driver
 * Bipolar stepper motor
@@ -45,8 +48,12 @@ License
 Are you allowed to use this code anywhere? Or change the code? - Yes! You are free to do that! Enjoy!
 Please feel free to change that to your own project use case.
 
-### Design: Tamir Rosenberg, N6JJ
-### YouTube Channel Name: re: Ham Radio
-### YouTube Channel link: https://www.youtube.com/channel/UCHImT8lgZAWDnsUao0wHAQQ
+
+
+Design: Tamir Rosenberg, N6JJ
+
+YouTube Channel Name: re: Ham Radio
+
+YouTube Channel link: https://www.youtube.com/channel/UCHImT8lgZAWDnsUao0wHAQQ
 
 # The best "Thank you" will be to subscribe to my channel and "like" the video - Thanks in advance!
