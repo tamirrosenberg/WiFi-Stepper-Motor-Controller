@@ -94,15 +94,15 @@ BLYNK_WRITE(V4){                                      // Blynk virtual pin V4
 
 // -- Main Tunning Function ---------------------------------------------------------------------------------
 
-void Tunning (int Steps, int Rotation){               
+void Tunning (int Delay, int Rotation){               
   digitalWrite(enablePin, LOW);                       // enable the driver
   for (int i = 0; i < Rotation; i++){                 // loop for motor steps 
     digitalWrite(stepPin, HIGH);                      // perform a step
     digitalWrite(LED_BUILTIN, LOW);                   // turn LED indicator OFF
-    delayMicroseconds(Steps);                         // wait for the steps operation
+    delayMicroseconds(Delay);                         // wait for the steps operation
     digitalWrite(stepPin, LOW);                       // stop the step 
-    digitalWrite(LED_BUILTIN, HIGH);                  // tuen LED indicator ON
-    delayMicroseconds(Steps);                         // wait between steps
+    digitalWrite(LED_BUILTIN, HIGH);                  // tune LED indicator ON
+    delayMicroseconds(Delay);                         // wait between steps
     Blynk.run();
   }
 }
@@ -122,7 +122,7 @@ void loop() {
 
   if (FineTuneRight){                                  // fine turn right
     digitalWrite(dirPin, LOW);                         // set direction to one side
-    Tunning(3000, 16);                                 // turn slow, aka "Fine Tune"
+    Tunning(10000, 1);                                 // turn slow, aka "Fine Tune"
   }
   
   if (TuneLeft){                                        // turn left
@@ -132,7 +132,7 @@ void loop() {
 
   if (FineTuneLeft){                                    // fine turn left 
     digitalWrite(dirPin, HIGH);                         // set direction to the other side
-    Tunning(3000, 16);                                  // turn slow, aka "Fine Tune"
+    Tunning(10000, 1);                                  // turn slow, aka "Fine Tune"
   }
 
   while (Scan) {                                        // scan as long as the App button is enable
