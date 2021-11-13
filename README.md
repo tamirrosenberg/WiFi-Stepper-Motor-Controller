@@ -37,15 +37,17 @@ More details about this driver can be found here: https://www.pololu.com/product
 Arduino IDE
 -----------
 When you are using the Arduino IDE, you will probalby need to install the Blynk & ESP libraries, so please follow this procedure.
-First, go to the "File" menu and choose "Preferences". In the "Additional Boards Manager URLs:" insert "http://arduino.esp8266.com/stable/package_esp8266com_index.json", and confirm with "Ok".
+1. Go to the "File" menu and choose "Preferences"
+2. In the "Additional Boards Manager URLs:" insert "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+3. Confirm with "Ok"
 
 From the Arduino IDE menu:
 1. Go to "Sketch" --> "Include Library" --> "Manage Libraries"
 2. Search for "Blynk", and install it
 
-Choose the right ESP library:
-In your Aruduino IDE, from the main menu choose "Tools".
-Then choose Board: "NodeMCU 1.0 (ESP-12E Module).
+Choose the correct ESP library:
+1. In your Aruduino IDE, from the main menu choose "Tools"
+2. Then choose Board "NodeMCU 1.0 (ESP-12E Module)
 
 Download: https://www.arduino.cc/en/software
 
