@@ -38,7 +38,7 @@ Arduino IDE
 -----------
 When you are using the Arduino IDE, you will probalby need to install the Blynk & ESP libraries, so please follow this procedure:
 First, go to the "File" menu and choose "Preferences".
-In the "Additional Boards Manager URLs:" add: "http://arduino.esp8266.com/stable/package_esp8266com_index.json".
+In the "Additional Boards Manager URLs:" insert "http://arduino.esp8266.com/stable/package_esp8266com_index.json".
 Confirm with "Ok".
 
 From the Arduino IDE menu:
