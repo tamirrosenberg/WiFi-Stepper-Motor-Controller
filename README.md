@@ -1,6 +1,14 @@
 # WiFi Stepper Motor Controller
 Control Stepper Motor remotely using WiFI using ESP8266, DRV8825 and the Blynk App
 
+# NOTE: THIS PROJECT IS DEPRECATED!!!
+## Since Blynk upgraded to v2 and removed v1 from the AppStore and the PlayStore, there is no reason to use it and I leave it here just as a reference for the history.  
+## I created a new project that replacing this one and it can be found here: https://github.com/tamirrosenberg/WiFi-Stepper-Motor-Controller-v2
+
+## Please follow the new project - Thank you!
+
+# DEPRECATED - YOU CAN STOP HERE!!!
+
 
 The Project
 -----------
